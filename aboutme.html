@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en-US">
+	<head>
+		<title>About Me - LaymansLearning</title>
+		<meta charset="UTF-8">
+		<link href="https://fonts.googleapis.com/css?family=Oswald|Hind|Montserrat" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Who I am? What I do? Welcome to LaymansLearning.">
+		<link rel="stylesheet" type="text/css" href="css/aboutme.css"> <!--../../css/indicesbases.css-->
+		<script type="text/javascript">
+			function extendnav(){
+				var menu = document.getElementsByClassName("menu");
+				for (i=0; i < menu.length; i++){
+					if (menu[i].style.display == "none"){
+						menu[i].style.display = "block";
+					}
+					else {
+						menu[i].style.display = "none";
+					}
+				} 
+			}
+			function show(){
+				var elem = document.getElementsByClassName("none");
+				for (i=0; i < elem.length; i++){
+					elem[i].style.display = "block";
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="same-line">
+				<div id="logo" class="float-left margin-left-five">
+					<a id="navicon" onclick="extendnav()">☰</a>
+					<div class="menu" style="display: none;">
+						<div id="coding">
+							<a class="hind hover-underline" href="../ud/under-development.html" class="hover-underline">Coding</a>
+						</div>						
+						<div id="dash">
+							<a class="hind hover-underline" href="#" class="hover-underline"><hr></a>
+						</div>
+						<div id="as/alevel">
+							<a class="hind hover-underline" href="../alevel/home.html" class="hover-underline">AS/A-Level</a>
+						</div>
+						<div id="gcse">
+							<a class="hind hover-underline" href="../gcse/home.html" class="hover-underline">GCSE</a>
+						</div>
+						<div id="dash">
+							<a class="hind hover-underline" href="#" class="hover-underline"><hr></a>
+						</div>				
+						<div id="about-me">
+							<a class="hind hover-underline" href="#" class="hover-underline">About Me</a>
+						</div>
+					</div>
+				</div>		
+				<div id="laymantag" class="float-left hover-underline montserrat-bold might-right" style="margin-left: 1rem ">
+					<a href="../index.html" class="hover-underline">LAYMANSLEARNING</a>
+				</div>
+			</div>		
+		</div>
+		<div class="main main-story">
+			<span>I'm <span class="intensify">Chike Nwaenie</span> and welcome to <span class="intensify smaller">LAYMANSLEARNING</span>.
+			Tailored <span class="intensify">by</span> the student, <span class="intensify">for</span> the student.</span>
+		</div>
+		<div class="fullstory">
+			<div class="shortstory main-story">
+				Long Story Short.<br>My name is Chike and I am a sixth former, in London, UK.
+				I enjoy manga, anime, trading, coding and I'm an Arsenal FC fan #COYG! Welcome to LaymansLearning!
+			</div>
+			<div class="longstory main-story">
+				Short Story Long.<br>I envisioned LaymansLearning last year September. So I set out on my journey with the sole intent of
+				combining simplicity with mastery by breaking down GCSE and A-Level content into <u>layman's terms</u>.
+				Hopefully to see what I mean, you'll visit the GCSE, A-LEVEL and the CODING page currently in development to get started!
+			</div>
+		</div>
+	</body>
+</html>
